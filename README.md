@@ -4,7 +4,8 @@
 
 - The only thing to do:
 ```
-Including the `XgboostPredictor.h` file to your project and add the `XgboostPredictor.cpp` file to your source file list.
+Including the `XgboostPredictor.h` file to your project.
+Adding the `XgboostPredictor.cpp` file to your source file list.
 ```
 
 - How to invoke:
@@ -52,7 +53,7 @@ std::cout << "xgboost predict probability vector is: ["
           << std::endl;
 ```
 
-`result is:`
+**result is:**
 
 ```
 xgboost predict probability vector is: [0.692828893, 0.307171107], load model using 1358(ms) predict using 1(ms)
