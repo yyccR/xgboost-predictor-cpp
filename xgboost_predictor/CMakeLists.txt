@@ -1,0 +1,2 @@
+aux_source_directory(. xgboost_predictor_src_lists)
+add_library(xgboost_predictor ${xgboost_predictor_src_lists})
