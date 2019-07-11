@@ -7,3 +7,4 @@ script:
   - mkdir build
   - cd build
   - cmake .. && make
+  - ./xgboost_predictor_cpp
